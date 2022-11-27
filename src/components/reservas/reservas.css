@@ -1,0 +1,19 @@
+.contenedor{
+    background-image: url(/src/img/background.jpg);
+    height:100vh;
+    margin-top: -34px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;    
+}
+
+
+
+
+
+
+
+
+
+
+
