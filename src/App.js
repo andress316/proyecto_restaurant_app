@@ -5,7 +5,7 @@ import './App.css';
 import Menu from './components/menu/menu.js';
 import Navbar from './components/navbar/navbar.js';
 import Nosotros from './components/nosotros/nosotros.js';
-import Reservas from './components/reservas/reservas.js';
+import Reserva from './components/reserva/reserva';
 
 
 
@@ -13,9 +13,7 @@ import Reservas from './components/reservas/reservas.js';
 function App() {
   return (
     <div className="App">
-  
-      
-      
+
       <Navbar />
 
       <Router>
@@ -33,7 +31,7 @@ function App() {
 
           <Route
             path="/Reservas"
-            element={ <Reservas /> }
+            element={ <Reserva /> }
           />
 
           <Route

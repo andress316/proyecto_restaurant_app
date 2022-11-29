@@ -4,14 +4,16 @@ import './navbar.css';
 
 
 
+
 export default function Navbar() {
   const [ isNavExpanded, setIsNavExpanded ] = useState( false )
 
   return (
     <nav className="navigation">
-      <a href="/" className="brand-name">
-        Vualá Cocine
+      <a href="/">
+      <img src='/images/logo.jpg' className='logo'></img>
       </a>
+      
       
 
       <button className="hamburger" onClick={ () => {

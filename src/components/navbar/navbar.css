@@ -1,5 +1,5 @@
 .navigation {
-    height: 30px;
+    height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -131,4 +131,11 @@
     font-family: Snell Roundhand, cursive;
     font-size: 50px;
     color: #e4c591;
+  }
+
+
+  .logo{
+    max-width: auto;
+    height: 40px;
+    margin-left: 60px;
   }

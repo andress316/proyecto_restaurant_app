@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja{
+background-color: black;
+opacity: 0.8;
+width: 300px;
+margin: 0px 30px 30px 30px;
+color: white;
+padding: 30px;
+border-radius: 15px;
+}
+
+
+h2{
+    font-family: Snell Roundhand, cursive;
+    font-size: 30px;
+    color: #e4c591;
+    margin-top: -10px;
+}
+
+.nosotrosImg{
+    width: 240px;
+    height: auto;
+   
+}
