@@ -1,8 +1,11 @@
 import { useFormik } from 'formik';
 import { db } from '../../../../config/firestore';
 import { addDoc, collection } from "firebase/firestore";
+import { useState } from 'react';
 
 export default function FormularioContacto () {
+
+
   const { handleSubmit, handleChange, values } = useFormik( {
     initialValues: {
       name: "",
@@ -15,13 +18,26 @@ export default function FormularioContacto () {
       try {
         const docRef = await addDoc( collection( db, "Reservas" ), values );
         console.log( "Se ha escrito la reserva con el ID: ", docRef.id );
-      } catch ( e ) {
+      } 
+      
+      catch ( e ) {
         console.error( "Error al crear reserva: ", e );
       }
     }
+
   } )
 
+const [stateRes, setStateRes] = useState (true);
+
+const reservaSiNo = () =>{
+ setStateRes(false);
+}
+
+
+
   return (
+    <div>
+    <h3>{stateRes ? "Crea tu primer reserva acá:" :  "¡Reservado!, puedes crear más reservas:"}</h3>
     <form onSubmit={ handleSubmit }>
       <label htmlFor='name'>Nombre</label>
       <input id='name' name='name' type="text" value={ values.name } onChange={ handleChange }></input>
@@ -37,9 +53,9 @@ export default function FormularioContacto () {
 
       
 
-      <button className='button' type='submit'>Enviar</button>
+      <button className='button' type='submit' onClick={reservaSiNo}>Enviar</button>
     </form>
 
-    
+    </div>
   )
 }

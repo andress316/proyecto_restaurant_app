@@ -9,6 +9,7 @@ export default function Navbar() {
   const [ isNavExpanded, setIsNavExpanded ] = useState( false )
 
   return (
+    <header>
     <nav className="navigation">
       <a href="/">
       <img src='/images/logo.jpg' className='logo'></img>
@@ -50,5 +51,6 @@ export default function Navbar() {
         </ul>
       </div>
     </nav>
+    </header>
   );
 }
