@@ -1,4 +1,4 @@
-import FormularioContacto from './FormularioContacto/FormularioContacto.js';
+import FormularioContacto from './FormularioContacto/FormularioContacto';
 import "./Contacto.css";
 
 export default function Contacto() {

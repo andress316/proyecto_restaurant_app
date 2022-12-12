@@ -1,4 +1,4 @@
-import FormularioContacto from './reservaForm/reservaForm.js';
+import FormularioContacto from './reservaForm/reservaForm';
 
 
 export default function Reservas () {

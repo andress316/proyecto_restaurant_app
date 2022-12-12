@@ -1,5 +1,5 @@
 import './reserva.css';
-import Reservas from './reservaCont/reservaCont.js';
+import Reservas from './reservaCont/reservaCont';
 
 
 

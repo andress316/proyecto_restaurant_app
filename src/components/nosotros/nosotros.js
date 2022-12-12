@@ -1,5 +1,5 @@
 import './nosotros.css';
-import Contacto from './Contacto/Contacto.js';
+import Contacto from './Contacto/Contacto';
 
 
 

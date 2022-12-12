@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 
-import Menu from './components/menu/Menu.js';
-import Navbar from './components/navbar/navbar.js';
-import Nosotros from './components/nosotros/nosotros.js';
+import Menu from './components/menu/Menu';
+import Navbar from './components/navbar/navbar';
+import Nosotros from './components/nosotros/nosotros';
 import Reserva from './components/reserva/reserva';
 
 
