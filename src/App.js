@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
 import './App.css';
 
 import Menu from './components/menu/Menu.js';
@@ -17,7 +16,7 @@ function App() {
 
       <Navbar />
 
-      <Router>
+      
         <Routes>
 
           <Route
@@ -42,7 +41,7 @@ function App() {
           
 
         </Routes>
-      </Router>
+      
    
 
    

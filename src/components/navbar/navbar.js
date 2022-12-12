@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
+import { Link } from "react-router-dom"
 
 
 
@@ -12,7 +13,7 @@ export default function Navbar() {
     <header>
     <nav className="navigation">
       <a href="/">
-      <img src='/images/logo.jpg' className='logo'></img>
+      <img src={process.env.PUBLIC_URL+'/images/logo.jpg' }className='logo'></img>
       </a>
       
       
@@ -40,13 +41,14 @@ export default function Navbar() {
         }>
         <ul>
           <li>
-            <a href="/nosotros">Nosotros</a>
+            
+            <Link to="/nosotros">Nosotros</Link>
           </li>
           <li>
-            <a href="/menu">Menú</a>
+          <Link to="/menu">Menú</Link>
           </li>
           <li>
-            <a href="/reservas">Reservas</a>
+            <Link to="/reservas">Reservas</Link>
           </li>
         </ul>
       </div>

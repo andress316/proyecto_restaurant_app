@@ -6,7 +6,7 @@ export default function Contacto() {
     return (
         <div className='flex-container'>
             <div className='caja'>
-                <img src='/images/chef_nosotros.jpg' className='nosotrosImg'></img>
+                <img src={process.env.PUBLIC_URL+'/images/chef_nosotros.jpg'} className='nosotrosImg'></img>
             </div>
 
             <div className='caja'>
@@ -21,3 +21,5 @@ export default function Contacto() {
     )
 
 }
+
+// /images/chef_nosotros.jpg

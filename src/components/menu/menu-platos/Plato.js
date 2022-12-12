@@ -8,7 +8,7 @@ function Plato({imagen,plato,descripcion,precio}) {
             
             <div className='caja-plato-flex'>
                     <div>
-                        <img src={`/images/${imagen}.jpg`} className='platoImg' />
+                        <img src={process.env.PUBLIC_URL+`/images/${imagen}.jpg`} className='platoImg' />
                     </div>
                     <div className='plato-descripcion'>
                         <h2>{plato}</h2>
