@@ -42,13 +42,13 @@ export default function Navbar() {
         <ul>
           <li>
             
-            <Link to="/nosotros">Nosotros</Link>
+            <Link className="link" to="/nosotros">Nosotros</Link>
           </li>
           <li>
-          <Link to="/menu">Menú</Link>
+          <Link className="link" to="/carta">Carta</Link>
           </li>
           <li>
-            <Link to="/reservas">Reservas</Link>
+            <Link className="link" to="/reservas">Reservas</Link>
           </li>
         </ul>
       </div>

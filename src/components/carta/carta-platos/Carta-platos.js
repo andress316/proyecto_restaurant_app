@@ -1,7 +1,7 @@
-import './Platos.css';
+import './Carta-platos.css';
 
 
-function Plato({imagen,plato,descripcion,precio}) {
+function Platillo({imagen,plato,descripcion,precio}) {
 
     return (
         <div className='containe-menu'>
@@ -23,7 +23,7 @@ function Plato({imagen,plato,descripcion,precio}) {
 }
 
 
-export default Plato;
+export default Platillo;
 
 
 

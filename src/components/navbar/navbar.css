@@ -57,6 +57,26 @@
     color: #e4c591;
   
   }
+  .link{
+    color: white;
+  }
+
+  .link:visited{
+    color: white;
+  }
+
+  .link:hover{
+    color: #e4c591;
+    font-weight: 300;
+  }
+
+  .link:active{
+    color: #e4c591;
+  
+  }
+
+
+
 
   .hamburger {
     border: 0;
